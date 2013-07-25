@@ -1,6 +1,8 @@
 btoa
 ===
 
+A port of the browser's `btoa` function.
+
 Uses `Buffer` to emulate the exact functionality of the browser's btoa (except that it supports unicode and the browser may not).
 
 It turns **b**inary data **to** base64-encoded **a**scii.
