@@ -8,7 +8,7 @@
     if (str instanceof Buffer) {
       buffer = str;
     } else {
-      buffer = new Buffer(str.toString(), 'binary');
+      buffer = new Buffer(str + '', 'binary');
     }
 
     return buffer.toString('base64');

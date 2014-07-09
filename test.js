@@ -12,5 +12,13 @@
     return;
   }
 
+  encoded = "dW5kZWZpbmVk";
+  unencoded = undefined;
+
+  if (encoded !== btoa(unencoded)) {
+    console.error('[FAIL]', encoded, btoa(unencoded));
+    return;
+  }
+
   console.log('[PASS] all tests pass');
 }());
