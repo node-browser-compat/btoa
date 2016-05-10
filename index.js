@@ -2,8 +2,7 @@
   "use strict";
 
   function btoa(str) {
-    var buffer
-      ;
+    var buffer;
 
     if (str instanceof Buffer) {
       buffer = str;
